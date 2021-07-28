@@ -1,0 +1,75 @@
+:root {
+    --primary: rgb(233, 233, 233);
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.pagetitle {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+
+.feed {
+    background-color: var(--primary);
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.photocontainer {
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 10px;
+}
+.phototitle {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
+}
+.leftparttitle {
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 2px;
+}
+.phototitle1 {
+    margin-left: 15px;
+    text-align: left;
+    color: rgb(46, 46, 46);
+}
+.photodate {
+    color: rgb(194, 194, 194);
+    text-align: right;
+}
+.photo {
+    width: 100%;
+}
+.photo img {
+    width: 100%;
+}
+.photodescription {
+    padding: 20px;
+    font-size: 0.8em;
+}
